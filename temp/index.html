@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+
+        <link href="css/custom.css" type="text/css" rel="stylesheet" media="all">
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet" type="text/css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- <nav>
+            Nav
+        </nav> -->
+        <section class="s1">
+            <div class="test"><img src="img/Capture.PNG"> </div>
+            <div class="s1content">
+                <h1>Hi, I'm Pawan Chawla</h1>
+                <p>My passion for programming led me to learn web development & implement 
+                    innovative solutions while at my job in manufacturing, eventually 
+                    leading me down the path of a full stack developer.</p>
+                <button onclick="testFn()"><span><i class="fas fa-arrow-circle-down"></i></span>RESUME</button>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="s2content">
+                <div class="subContent">
+                    <div class="iframePlaceholder">
+                        <div class="playBtn" onclick="testFn()">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                        <iframe id="iframe1"
+                            src="" data-src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="subContent">
+                    <h2>KanOP</h2>
+                    <p class="subtitle">ERP for job-shops</p>
+                    <p> programming led me to learn web development & implement 
+                            innovative solutions while at my job in manufacturing, eventually 
+                            leading me down the path of a </p>
+                    <span>Angular 4</span>
+                    <span>Django 1.10</span>
+                    <span>RESTful API</span>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="s3content">
+                <div class="s3subcontent">
+                    <div class="imgContainer">
+                        <div class="svgContainer">
+                            <i class="fas fa-play-circle" id= "gif1playbutton" onclick="playGif(1)"></i>
+                            <i class="fas fa-stop-circle pause" id= "gif1pausebutton" onclick="pauseGif(1)"></i>
+                        </div>
+                        <img src="img/1.jpg"  id="gif1" data-srcgif="img/1.gif" data-srcjpg="img/1.jpg">
+                    </div>
+                    <div class="cardContainer">
+                        <div class="cardTitle"><h3>Drag and Drop Kanban Board</h3></div>
+                        <div class="cardContent">A simple visual interface with immediate feedback 
+                            to schedule jobs & plan projects
+                        </div>
+                    </div>
+                </div>
+                <div class="s3subcontent">
+                    <div class="imgContainer">
+                        <div class="svgContainer">
+                            <i class="fas fa-play-circle" id= "gif2playbutton" onclick="playGif(2)"></i>
+                            <i class="fas fa-stop-circle pause" id= "gif2pausebutton" onclick="pauseGif(2)"></i>
+                        </div>
+                        <img src="img/2.jpg" id="gif2" data-srcgif="img/2.gif" data-srcjpg="img/2.jpg">
+                    </div>
+                    <div class="cardContainer">
+                        <div class="cardTitle"><h3>Resource Bottleneck detection</h3></div>
+                        <div class="cardContent">A simple visual interface with immediate feedback 
+                            to schedule jobs & plan projects
+                        </div>
+                    </div>
+                </div>
+                <div class="s3subcontent">
+                    <div class="imgContainer">
+                        <div class="svgContainer">
+                            <i class="fas fa-play-circle" id= "gif3playbutton" onclick="playGif(3)"></i>
+                            <i class="fas fa-stop-circle pause" id= "gif3pausebutton" onclick="pauseGif(3)"></i>
+                        </div>
+                        <img src="img/3.jpg" id="gif3" data-srcgif="img/3.gif" data-srcjpg="img/3.jpg">
+                    </div>
+                    <div class="cardContainer">
+                        <div class="cardTitle"><h3>Live filtering & Sync</h3></div>
+                        <div class="cardContent">A simple visual interface with immediate feedback 
+                            to schedule jobs & plan projects
+                        </div>
+                    </div>
+                </div>
+                <div class="s3subcontent">
+                    <div class="imgContainer">
+                        <div class="svgContainer">
+                            <i class="fas fa-play-circle" id= "gif4playbutton" onclick="playGif(4)"></i>
+                            <i class="fas fa-stop-circle pause" id= "gif4pausebutton" onclick="pauseGif(4)"></i>
+                        </div>
+                        <img src="img/4.jpg" id="gif4" data-srcgif="img/4.gif" data-srcjpg="img/4.jpg">
+                    </div>
+                    <div class="cardContainer">
+                        <div class="cardTitle"><h3>JWT login + User Role guards</h3></div>
+                        <div class="cardContent">A simple visual interface with immediate feedback 
+                            to schedule jobs & plan projects
+                        </div>
+                    </div>
+                </div>
+                <div class="s3subcontent">
+                    <div class="imgContainer">
+                        <div class="svgContainer">
+                            <i class="fas fa-play-circle" id= "gif5playbutton" onclick="playGif(5)"></i>
+                            <i class="fas fa-stop-circle pause" id= "gif5pausebutton" onclick="pauseGif(5)"></i>
+                        </div>
+                        <img src="img/5.jpg" id="gif5" data-srcgif="img/5.gif" data-srcjpg="img/5.jpg">
+                    </div>
+                    <div class="cardContainer">
+                        <div class="cardTitle"><h3>CRUD with RESTful backend (Django)</h3></div>
+                        <div class="cardContent">A simple visual interface with immediate feedback 
+                            to schedule jobs & plan projects
+                        </div>
+                    </div>
+                </div>
+                <div class="s3subcontent">
+                    <div class="imgContainer">
+                        <div class="svgContainer">
+                            <i class="fas fa-play-circle" id= "gif6playbutton" onclick="playGif(6)"></i>
+                            <i class="fas fa-stop-circle pause" id= "gif6pausebutton" onclick="pauseGif(6)"></i>
+                        </div>
+                        <img src="img/6.jpg" id="gif6" data-srcgif="img/6.gif" data-srcjpg="img/6.jpg">
+                    </div>
+                    <div class="cardContainer">
+                        <div class="cardTitle"><h3>Complex validation & treeview</h3></div>
+                        <div class="cardContent">A simple visual interface with immediate feedback 
+                            to schedule jobs & plan projects
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </section>
+            <section class="sContact">
+                <div class="title">Get in touch</div>
+                <div>
+                    <div class="md-chips">
+                            <a href="tel:+919819879756">
+                        <div class="md-chip md-chip-clickable">
+                            <div class="md-chip-icon"><i class="fas fa-phone"></i></div>
+                            +91 981-987-9756
+                        </div></a>
+                        <a href="mailto:paw1.chawla@gmail.com" target="_blank">
+                        <div class="md-chip md-chip-clickable">
+                            <div class="md-chip-icon"><i class="fas fa-at"></i></div>
+                            paw1.chawla@gmail.com
+                        </div></a>
+                        <div class="md-chip">
+                            <div class="md-chip-icon"><i class="fas fa-home"></i></div>
+                            Mumbai, MH
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <i class="fas fa-info-circle"></i> &nbsp;
+                This responsive website was made with pure HTML5, CSS3, and JS (ES6) without using bootstrap or jQuery
+            </section>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
