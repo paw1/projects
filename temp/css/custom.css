@@ -66,6 +66,10 @@ section {
     align-items: center;
 }
 
+.s1content > p > span {
+    color: #ff4f4f;
+}
+
 h1 {
     text-align: center;
     font-size: 3em;
@@ -84,6 +88,7 @@ p {
 }
 
 button {
+    margin-top:1em;
     font-size: 0.85em;
     line-height: 0.85em;
     font-weight: 700;
@@ -150,6 +155,7 @@ button > span {
 }
 
 .s2content > div > span:hover {
+    cursor: default;
     background: #ff4f4f;
 }
 
@@ -174,7 +180,7 @@ iframe {
 }
 
 h2 {
-    color: #252525;
+    color: #454545;
     font-size: 2em;
     margin-bottom: 0;
 }
@@ -285,6 +291,8 @@ h2 + p.subtitle {
 }
 
 .footer {
+    /* display: inline-block; */
+    text-align: center;
     padding-top:2em;
     background-color: #f8f8f8;
     justify-content: center;
