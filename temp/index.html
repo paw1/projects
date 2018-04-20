@@ -51,10 +51,13 @@
                 <div class="s3subcontent">
                     <div class="imgContainer">
                         <div class="svgContainer">
-                            <i class="fas fa-play-circle" id= "gif1playbutton" onclick="playGif(1)"></i>
-                            <i class="fas fa-stop-circle pause" id= "gif1pausebutton" onclick="pauseGif(1)"></i>
+                            <i class="fas fa-play-circle pause" id= "gif1playbutton" onclick="playmp4(1)"></i>
+                            <i class="fas fa-stop-circle" id= "gif1pausebutton" onclick="pausemp4(1)"></i>
                         </div>
-                        <img src="img/1.jpg"  id="gif1" data-srcgif="img/1.gif" data-srcjpg="img/1.jpg">
+                        <video id="video1" autoplay="autoplay" loop="loop">
+                            <source src="img/1.mp4" type="video/mp4" />
+                            <img src="img/1.jpg"  id="gif1" data-srcgif="img/1.gif" data-srcjpg="img/1.jpg">
+                        </video>
                     </div>
                     <div class="cardContainer">
                         <div class="cardTitle"><h3>Drag and Drop Kanban Board</h3></div>
@@ -65,10 +68,13 @@
                 <div class="s3subcontent">
                     <div class="imgContainer">
                         <div class="svgContainer">
-                            <i class="fas fa-play-circle" id= "gif2playbutton" onclick="playGif(2)"></i>
-                            <i class="fas fa-stop-circle pause" id= "gif2pausebutton" onclick="pauseGif(2)"></i>
+                            <i class="fas fa-play-circle pause" id= "gif2playbutton" onclick="playmp4(2)"></i>
+                            <i class="fas fa-stop-circle" id= "gif2pausebutton" onclick="pausemp4(2)"></i>
                         </div>
-                        <img src="img/2.jpg" id="gif2" data-srcgif="img/2.gif" data-srcjpg="img/2.jpg">
+                        <video id="video2" autoplay="autoplay" loop="loop">
+                            <source src="img/2.mp4" type="video/mp4" />
+                            <img src="img/2.jpg"  id="gif2" data-srcgif="img/2.gif" data-srcjpg="img/2.jpg">
+                        </video>
                     </div>
                     <div class="cardContainer">
                         <div class="cardTitle"><h3>Resource Bottleneck detection</h3></div>
@@ -79,10 +85,13 @@
                 <div class="s3subcontent">
                     <div class="imgContainer">
                         <div class="svgContainer">
-                            <i class="fas fa-play-circle" id= "gif3playbutton" onclick="playGif(3)"></i>
-                            <i class="fas fa-stop-circle pause" id= "gif3pausebutton" onclick="pauseGif(3)"></i>
+                            <i class="fas fa-play-circle pause" id= "gif3playbutton" onclick="playmp4(3)"></i>
+                            <i class="fas fa-stop-circle" id= "gif3pausebutton" onclick="pausemp4(3)"></i>
                         </div>
-                        <img src="img/3.jpg" id="gif3" data-srcgif="img/3.gif" data-srcjpg="img/3.jpg">
+                        <video id="video3" autoplay="autoplay" loop="loop" muted>
+                            <source src="img/3.mp4" type="video/mp4" />
+                            <img src="img/3.jpg"  id="gif3" data-srcgif="img/3.gif" data-srcjpg="img/3.jpg">
+                        </video>
                     </div>
                     <div class="cardContainer">
                         <div class="cardTitle"><h3>Multi-Client Sync</h3></div>
@@ -93,10 +102,13 @@
                 <div class="s3subcontent">
                     <div class="imgContainer">
                         <div class="svgContainer">
-                            <i class="fas fa-play-circle" id= "gif4playbutton" onclick="playGif(4)"></i>
-                            <i class="fas fa-stop-circle pause" id= "gif4pausebutton" onclick="pauseGif(4)"></i>
+                            <i class="fas fa-play-circle pause" id= "gif4playbutton" onclick="playmp4(4)"></i>
+                            <i class="fas fa-stop-circle" id= "gif4pausebutton" onclick="pausemp4(4)"></i>
                         </div>
-                        <img src="img/4.jpg" id="gif4" data-srcgif="img/4.gif" data-srcjpg="img/4.jpg">
+                        <video id="video4" autoplay="autoplay" loop="loop">
+                            <source src="img/4.mp4" type="video/mp4" />
+                            <img src="img/4.jpg"  id="gif4" data-srcgif="img/4.gif" data-srcjpg="img/4.jpg">
+                        </video>
                     </div>
                     <div class="cardContainer">
                         <div class="cardTitle"><h3>CRUD with RESTful backend (Django)</h3></div>
@@ -108,10 +120,13 @@
                 <div class="s3subcontent">
                     <div class="imgContainer">
                         <div class="svgContainer">
-                            <i class="fas fa-play-circle" id= "gif5playbutton" onclick="playGif(5)"></i>
-                            <i class="fas fa-stop-circle pause" id= "gif5pausebutton" onclick="pauseGif(5)"></i>
+                            <i class="fas fa-play-circle pause" id= "gif5playbutton" onclick="playmp4(5)"></i>
+                            <i class="fas fa-stop-circle" id= "gif5pausebutton" onclick="pausemp4(5)"></i>
                         </div>
-                        <img src="img/5.jpg" id="gif5" data-srcgif="img/5.gif" data-srcjpg="img/5.jpg">
+                        <video id="video5" autoplay="autoplay" loop="loop">
+                            <source src="img/5.mp4" type="video/mp4" />
+                            <img src="img/5.jpg"  id="gif5" data-srcgif="img/5.gif" data-srcjpg="img/5.jpg">
+                        </video>
                     </div>
                     <div class="cardContainer">
                         <div class="cardTitle"><h3>JWT login + User Role Guards</h3></div>
@@ -122,15 +137,18 @@
                 <div class="s3subcontent">
                     <div class="imgContainer">
                         <div class="svgContainer">
-                            <i class="fas fa-play-circle" id= "gif6playbutton" onclick="playGif(6)"></i>
-                            <i class="fas fa-stop-circle pause" id= "gif6pausebutton" onclick="pauseGif(6)"></i>
+                            <i class="fas fa-play-circle pause" id= "gif6playbutton" onclick="playmp4(6)"></i>
+                            <i class="fas fa-stop-circle" id= "gif6pausebutton" onclick="pausemp4(6)"></i>
                         </div>
-                        <img src="img/6.jpg" id="gif6" data-srcgif="img/6.gif" data-srcjpg="img/6.jpg">
+                        <video id="video6" autoplay="autoplay" loop="loop">
+                            <source src="img/6.mp4" type="video/mp4" />
+                            <img src="img/6.jpg"  id="gif6" data-srcgif="img/6.gif" data-srcjpg="img/6.jpg">
+                        </video>
                     </div>
                     <div class="cardContainer">
                         <div class="cardTitle"><h3>Intuitive Views</h3></div>
                         <div class="cardContent">
-                            Production reports grouped by customer, project, job or challan in a treeview makes generating challans and invoices very straightforward.
+                            Production reports grouped by customer, project, job or challan in a treeview color coded by status makes generating challans and invoices very straightforward.
                         </div>
                     </div>
                 </div>

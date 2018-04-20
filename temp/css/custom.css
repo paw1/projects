@@ -33,12 +33,15 @@ section {
 }
 
 .svgContainer {
+    z-index: 10;
     position: absolute;
     right: 15px;
     bottom: 15px;
     font-size: 2em;
     color: white;
     cursor: pointer;
+    filter: drop-shadow( 0px 0px 2px #aaa );
+    opacity: 0.7;
 }
 
 .test img {
@@ -244,7 +247,7 @@ h2 + p.subtitle {
     bottom: 0;
 }
 
-.s3subcontent img {
+.s3subcontent img, video {
     width: 100%;
 }
 
