@@ -168,7 +168,8 @@ button > span {
     padding-bottom: 75%;
     border-radius: 0.75em;
     height: 100%;
-    background: rgb(112, 112, 112);
+    background: url(../img/splashscreen.png);
+    background-size: 100% 100%;
 }
 
 iframe {
@@ -193,7 +194,7 @@ h2 {
 }
 
 .playBtn {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
     font-size: 5em;
     position: absolute;
@@ -201,6 +202,10 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%,-50%);
+}
+
+.playBtn:hover {
+    color:white;
 }
 
 h2 + p.subtitle {

@@ -13,6 +13,13 @@ function testFn() {
 
 }
 
+function testFn2() {
+    window.open(
+        'files/Pawan Chawla - Software Developer.pdf',
+        '_blank' // <- This is what makes it open in a new window.
+      );
+}
+
 function playGif(num) {
     let x = document.getElementById(`gif${num}playbutton`)
     x.style.display = "none"
