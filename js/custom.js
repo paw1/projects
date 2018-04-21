@@ -1,9 +1,14 @@
-// (new Image()).src = "img/1.gif"
-// (new Image()).src = "img/2.gif"
-// (new Image()).src = "img/3.gif"
-// (new Image()).src = "img/4.gif"
-// (new Image()).src = "img/5.gif"
-// (new Image()).src = "img/6.gif"
+// window.onload = checkPause();
+
+// function checkPause() {
+//     z = document.getElementById(`video1`)
+//     setTimeout(() => {
+//         if(z.paused) {
+//             alert('gg')
+//         }}
+//         ,1000)
+    
+// }
 
 function testFn() {
     let x = document.getElementById('iframe1');
