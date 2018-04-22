@@ -1,14 +1,17 @@
-// window.onload = checkPause();
+window.onload = checkPause();
 
-// function checkPause() {
-//     z = document.getElementById(`video1`)
-//     setTimeout(() => {
-//         if(z.paused) {
-//             alert('gg')
-//         }}
-//         ,1000)
+function checkPause() {
+    z = Array.from(document.getElementsByTagName(`video`))
+    console.log(z)
+    setTimeout(() => {
+        if(z[0].paused) {
+            z.forEach(element => {
+                element.play()
+            });
+        }}
+        ,1000)
     
-// }
+}
 
 function testFn() {
     let x = document.getElementById('iframe1');
