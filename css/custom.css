@@ -42,12 +42,13 @@ section {
     cursor: pointer;
     filter: drop-shadow( 0px 0px 2px #aaa );
     opacity: 0.7;
-    transition: 0.1s linear;
+    
 }
 
 .svgContainer:hover {
     opacity: 1;;
     color: #ff4f4f;
+    transition: 0.1s linear;
 }
 
 .test img {
@@ -350,6 +351,15 @@ h2 + p.subtitle {
     cursor: pointer;
    }
 
-   .pause {
-       display: none;
-   }
+.pause {
+    display: none;
+}
+
+.play {
+    display: inline;
+}
+
+.dpNone {
+    display: none;
+}
+
