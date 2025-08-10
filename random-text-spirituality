@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Hourly Reminder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+    }
+    #message {
+      font-size: 2em;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    #next-line-button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      border: none;
+      background-color: #202428;
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    #next-line-button:hover {
+      background-color: #21507e;
+    }
+  </style>
+</head>
+<body>
+
+<p id="message"></p>
+<button id="next-line-button">Next Line</button>
+
+<script>
+  // Your lines of text go here.
+  const lines = [
+    "Today will be a perfect day. Everything works towards your evolution. Have trust that everything will work out for you.",
+    "Every waking moment is an opportunity — to observe youself, to change.",
+    "Forgive and accept yourself the way you are. Self worth is the core issue to be solved.",
+    "You need a goal / purpose. A fearless life is truly the highest pleasure one can hope for. Achieving this is entirely under your control. She simply cannot plug the hole of emptiness. Only your purpose can.",
+    "Goal : Stop the self from becoming the centre of your life. Never treat others as means to an end. Do not have desires for the self.",
+    "Life is a flow. Don't try to be the doer all the time. Just flow with it. Action will arise on its own",
+    "Be in the present. Give full attention to it. Enjoy the beauty of the present and move on",
+    "Use the ABC technique to find out core irrational beliefs, challenge them. This will help with self worth",
+    
+  ];
+
+  const messageElement = document.getElementById("message");
+  const button = document.getElementById("next-line-button");
+
+  // Function to get a random line
+  function getRandomLine() {
+    const randomIndex = Math.floor(Math.random() * lines.length);
+    return lines[randomIndex];
+  }
+
+  // Display a random line as soon as the page loads.
+  messageElement.textContent = getRandomLine();
+
+  // Event listener for the button click
+  button.addEventListener("click", () => {
+    messageElement.textContent = getRandomLine();
+  });
+</script>
+
+</body>
+</html>
